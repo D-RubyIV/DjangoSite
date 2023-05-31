@@ -1,0 +1,119 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,125,209,1) 50%, rgba(0,212,255,1) 100%);
+}
+#logo{
+    /* background-color: gray; */
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-image: url('..\\image\\header-development.jpg');
+    color: white;
+}
+#auth{
+    top: 10px;
+    position: absolute;
+    right: 30px;
+}
+#auth>a{
+    color: white;
+    text-decoration: none;
+}
+#logo>img{
+    border: 3px solid white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#brandName{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#infomation{
+    display: flex;
+    justify-content: center;
+}
+#infomation #social-media{
+    padding: 10px;
+    width: 120px;
+}
+#small-icon>a{
+    text-decoration: none;
+    color: blue;
+}
+#page-content{
+    display: flex;
+    height: auto;
+    padding-bottom: 40px;
+
+}
+#left-side{
+    width: 20%;
+    background-color: #19252f;
+    border-radius: 10px;
+}
+#left-side>ul{
+    list-style: none;
+}
+#left-side>ul>li{
+    padding: 10px 0 10px 0;
+}
+#left-side>ul>li>a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+#right-side{
+    width: 80%;
+}
+#all-item-side{
+    display: flex;
+    justify-content: space-between;
+}
+#item{
+    margin: 0 10px 0 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+}
+#img-item{
+    width: 175px;
+    height: 175px;
+}
+#col-item{
+    color: white;
+}
+#name-item{
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#div-more-info{
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(255,212,59);
+    border-radius: 10px;
+}
+#price-text-item{
+    color: white;
+}
+
+
+
+
+footer{
+    width: 1320px;
+    margin: 0 auto;
+    background-color: rgb(255,212,59);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
